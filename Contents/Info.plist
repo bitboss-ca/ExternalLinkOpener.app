@@ -48,5 +48,24 @@
 		<key>selectedTab</key>
 		<string>description</string>
 	</dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+	    <dict>
+	        <key>CFBundleURLName</key>
+	        <string>http URL</string>
+	        <key>CFBundleURLSchemes</key>
+	        <array>
+	            <string>http</string>
+	        </array>
+	    </dict>
+	    <dict>
+	        <key>CFBundleURLName</key>
+	        <string>Secure http URL</string>
+	        <key>CFBundleURLSchemes</key>
+	        <array>
+	            <string>https</string>
+	        </array>
+	    </dict>
+	</array>
 </dict>
 </plist>
